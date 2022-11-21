@@ -1,27 +1,22 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body
-{
-    background-image: url(../img/bckground.jpg);
-    background-repeat: no-repeat;
-    font-family: 'Quicksand', sans-serif;
+body {
+  background-image: url(../img/bckground.jpg);
+  background-repeat: no-repeat;
+  font-family: "Quicksand", sans-serif;
 }
 
-
-.box
-{
+.box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
   grid-auto-rows: minmax(700px, auto);
 }
 
-.boxProd
-{
+.boxProd {
   position: relative;
   height: 600px;
   width: 100%;
@@ -31,18 +26,15 @@ body
   left: 100%;
 }
 
-.boxProd:hover .card-front
-{
+.boxProd:hover .card-front {
   transform: rotateX(-100deg);
 }
 
-.boxProd:hover .card-back
-{
+.boxProd:hover .card-back {
   transform: rotateX(0deg);
 }
 
-.card-front
-{
+.card-front {
   height: 100%;
   width: 100%;
   background-image: url("../img/img.png");
@@ -62,14 +54,11 @@ body
   border-radius: 50px;
 }
 
-
-.card-front a 
-{
-  color: #6c757d; 
+.card-front a {
+  color: #6c757d;
 }
 
-.card-back
-{
+.card-back {
   backface-visibility: hidden;
   transform: rotateX(100deg);
   color: #ffff;
@@ -78,8 +67,7 @@ body
   position: relative;
 }
 
-.card-back a 
-{
+.card-back a {
   text-decoration: none;
   color: #fff;
   background-color: var(--lila);
@@ -95,42 +83,31 @@ body
   margin-top: 90px;
 }
 
-.card-back a:hover
-{
+.card-back a:hover {
   color: violet;
   border: 1px solid violet;
 }
 
-.card-back .precio
-{
-    font-size: 1.5em;
-    color: #fff;
-    text-align: center;
-    margin-top: 20px;
-    position: relative;
-    top: 20px;
+.card-back .precio {
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  top: 20px;
 }
 
-small
-{
+small {
   font-size: 0.7em;
 }
 
-h1
-{
+h1 {
   margin-bottom: 10px;
   font-size: 2.5em;
   color: violet;
 }
 
-p
-{
+p {
   font-size: 1.5em;
   font-weight: bold;
 }
-
-
-
-
-
-
